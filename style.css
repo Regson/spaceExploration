@@ -4,3 +4,14 @@ body{
     background-image: url("assets/universe.jpg");
     background-size: cover;
 }
+
+.container{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-apply{
+    border: none;
+    padding: 10px 20px;
+    background: white;
+}
