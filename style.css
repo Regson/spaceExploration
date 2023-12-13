@@ -5,16 +5,17 @@
     src: url("assets/fonts/SpaceQuest-Xj4o.ttf");
 }
 body{
-    color: white;
-    background-image: url("assets/images/galaxy.gif");
-    background-size: cover;
+    /* font-family: spacefont; */
+    font-family: 'Orbitron', sans-serif;
+    color: #354A6C;
+    margin: 0;
+    text-align: center;
 }
 
 .container{
-    /* font-family: spacefont; */
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    margin-top: 10px;
+    background-image: url("assets/images/galaxy.gif");
+    background-size: cover;
+    padding: 10px 0 40px 0;
 }
 
 .btn-apply{
@@ -22,6 +23,7 @@ body{
     padding: 10px 20px;
     background: white;
     font-family: inherit;
+    font-weight: bold;
 }
 .expHeading{
     /* text-decoration: underline; */
