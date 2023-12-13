@@ -16,6 +16,7 @@ body{
     background-image: url("assets/images/galaxy.gif");
     background-size: cover;
     padding: 10px 0 40px 0;
+    text-shadow: 0 0 4px black;
 }
 
 .btn-apply{
